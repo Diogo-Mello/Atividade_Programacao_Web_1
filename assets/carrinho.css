@@ -1,0 +1,66 @@
+
+body{
+    font-family: 'rubik';
+    background-color: darkgrey;
+}
+
+.row {
+    margin: 0;
+    padding: 0;
+}
+
+.js {
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: #fff;
+    padding: 0;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.js .col-8 {
+    text-align: center;
+}
+
+
+
+
+.navbar {
+    font-size: larger;
+}
+
+.navbar-brand img {
+    margin-right: 7px;
+}
+
+.vazio {
+    padding: 50px;
+    text-align: center;
+}
+
+
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.insta, .logo {
+    filter: invert(100%);
+}
+
+.rodapeetec {
+    margin-left: 10px;
+}
+
+.logorodape {
+    margin: 5px;
+}
+
+@media (min-width: 576px){
+    .inserir img{
+        width: 200px;
+    }
+}
